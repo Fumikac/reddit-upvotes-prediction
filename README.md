@@ -1,15 +1,6 @@
 # Reddit Upvotes Prediction
-## Objective
-Predict up votes of the posts in Reddit subreddit worldnews.
-
-## Documents
-
-[Summary](https://github.com/Fumikac/reddit-upvotes-prediction/summary.pdf)
-
-Codes: [notebook](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_coding_challenge.ipynb)
-[pdf](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_coding_challenge.pdf)
-
-# Reddit Upvotes Prediction
+### Fumika Isono
+### Sunday, April 25, 2021
 
 Codes can be found in [notebook](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_coding_challenge.ipynb) or [pdf](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_coding_challenge.pdf)
 
@@ -45,7 +36,15 @@ We built a model to estimate up votes of the subreddit worldnews ****in Reddit.
 
 7. We can also provide a more business centric view of the performance of our mode:
 
-    [Untitled](https://www.notion.so/ff4508df309347c2911c0457e0b9e394)
+    | Percentage of
+prediction      | within +/- 50
+votes accuracy (test
+set) | within +/- 100
+votes accuracy (test
+set)    |
+    | :---        |    :----:   |          ---: |
+    | Model 1:Global Mean      | 87.23 %       | 90.56 %   |
+    | Model 2:Gradient Boosted DT   | 4.27 %        | 21.60 %      |
 
     We see that we successfully increased the percentage of prediction within specific ranges of error.
 
