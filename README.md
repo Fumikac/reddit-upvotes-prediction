@@ -2,5 +2,5 @@
 ## Objective
 Predict up votes of the subreddit worldnews in Reddit
 
-Summary
+[Summary](https://github.com/Fumikac/reddit-upvotes-prediction/summary.pdf)
 Codes
