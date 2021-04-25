@@ -1,6 +1,6 @@
 # Reddit Upvotes Prediction
 ## Objective
-Predict up votes of the subreddit worldnews in Reddit.
+Predict up votes of the posts in Reddit subreddit worldnews.
 
 ## Documents
 
