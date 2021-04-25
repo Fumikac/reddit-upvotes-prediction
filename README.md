@@ -1,7 +1,7 @@
 # Reddit Upvotes Prediction
 Fumika Isono April 25, 2021
 
-Codes can be found in [jupyter notebook](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_coding_challenge.ipynb) or [pdf](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_coding_challenge.pdf)
+Codes and the more detailed description can be found in [jupyter notebook](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_coding_challenge.ipynb) or [pdf](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_coding_challenge.pdf)
 
 ## Objective
 
