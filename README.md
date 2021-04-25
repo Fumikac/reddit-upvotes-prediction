@@ -29,18 +29,13 @@ We built a model to estimate up votes of the subreddit [worldnews](https://www.r
     |       | Training MAE | Validation MAE    | Test MAE    |
     | :---        |    :----:   |    :----:   |          ---: |
     | Model 1:Global Mean      | 186.16       | 189.03   | 172.36   |
-    | Model 2:Gradient Boosted DT   | 110.49        | 102.99      |
+    | Model 2:Gradient Boosted DT   | 110.49        | 112.22      |102.99      |
 
     The Gradient Boosted decision tree model successfully performed well, as expected.
 
 7. We can also provide a more business centric view of the performance of our mode:
 
-    | Percentage of
-prediction      | within +/- 50
-votes accuracy (test
-set) | within +/- 100
-votes accuracy (test
-set)    |
+    | Percentage of prediction accuracy   | within +/- 50 votes (test set) | within +/- 100 votes (test set)    |
     | :---        |    :----:   |          ---: |
     | Model 1:Global Mean      | 87.23 %       | 90.56 %   |
     | Model 2:Gradient Boosted DT   | 4.27 %        | 21.60 %      |
