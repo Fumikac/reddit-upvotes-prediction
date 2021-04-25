@@ -36,8 +36,10 @@ We built a model to estimate up votes of the subreddit worldnews ****in Reddit.
     - Global mean, as a baseline
     - Gradient Boosted Trees using the MAE loss function.
 6. They yielded the following results
-
-    [Untitled](https://www.notion.so/b5fb37ff373444a2835d830f35d8a57d)
+    |       | Training MAE | Validation MAE    |
+    | :---        |    :----:   |          ---: |
+    | Model 1:Global Mean      | 186.16       | 189.03   |
+    | Model 2:Gradient Boosted DT   | 110.49        | 112.22      |
 
     The Gradient Boosted decision tree model successfully performed well, as expected.
 
