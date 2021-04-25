@@ -1,5 +1,5 @@
 # Reddit Upvotes Prediction
-Fumika Isono, April 25, 2021
+Fumika Isono April 25, 2021
 
 Codes can be found in [jupyter notebook](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_coding_challenge.ipynb) or [pdf](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_coding_challenge.pdf)
 
@@ -28,8 +28,8 @@ We built a model to estimate up votes of the subreddit [worldnews](https://www.r
 6. They yielded the following results
     |       | Training MAE | Validation MAE    | Test MAE    |
     | :---        |    :----:   |    :----:   |    :----:   |
-    | Model 1:Global Mean      | 186.16       | 189.03   | 172.36   |
-    | Model 2:Gradient Boosted DT   | 110.49        | 112.22      |102.99      |
+    | Model 1: Global Mean      | 186.16       | 189.03   | 172.36   |
+    | Model 2: Gradient Boosted DT   | 110.49        | 112.22      |102.99      |
 
     The Gradient Boosted decision tree model successfully performed well, as expected.
 
@@ -37,8 +37,8 @@ We built a model to estimate up votes of the subreddit [worldnews](https://www.r
 
     | Percentage of prediction accuracy   | within +/- 50 votes (test set) | within +/- 100 votes (test set)    |
     | :---        |    :----:   |    :----:   |
-    | Model 1:Global Mean      | 87.23 %       | 90.56 %   |
-    | Model 2:Gradient Boosted DT   | 4.27 %        | 21.60 %      |
+    | Model 1: Global Mean      | 87.23 %       | 90.56 %   |
+    | Model 2: Gradient Boosted DT   | 4.27 %        | 21.60 %      |
 
     We see that we successfully increased the percentage of prediction within specific ranges of error.
 
