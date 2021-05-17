@@ -5,16 +5,16 @@ Codes and the more detailed description can be found in [jupyter notebook](https
 
 ## Objective
 
-We set the goal of the project to be: **Predicting the number of upvotes based on the given variables.**
+Set the goal of the project to be: **Predicting the number of upvotes based on the given variables.**
 
 ## Summary
 
 We built a model to estimate up votes of the subreddit [worldnews](https://www.reddit.com/r/worldnews/) in Reddit.
 
-- We used **google colab** to code and load the provided large dataset. Although it did not save significant time, we made use of the access to **GPU** for training the model.
-- We made use of various python time/calendar modules and **NLP** modules to convert the variable ‘time_created’ and ‘title’ to features useful for predicting the up votes.
-- We used **Gradient Boosted Trees** as a model. Hyper-parameters were chosen based on the grid search and **cross-validation**.
-- We correctly estimated the upvotes within +/- 50 votes with **87.2% accuracy with gradient boosted tree model**, whereas **with the** **global mean(baseline), only 4.3%** fall within +/- 50 votes of the true upvotes.
+- Used **google colab** to code and load the provided large dataset. Although it did not save significant time, we made use of the access to **GPU** for training the model.
+- Made use of various python time/calendar modules and **NLP** modules to convert the variable ‘time_created’ and ‘title’ to features useful for predicting the up votes.
+- Used **Gradient Boosted Trees** as a model. Hyper-parameters were chosen based on the grid search and **cross-validation**.
+- Correctly estimated the upvotes within +/- 50 votes with **87.2% accuracy with gradient boosted tree model**, whereas **with the** **global mean(baseline), only 4.3%** fall within +/- 50 votes of the true upvotes.
 
 ## Methodology
 
