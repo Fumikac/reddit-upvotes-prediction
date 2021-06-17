@@ -1,7 +1,7 @@
 # Reddit Upvotes Prediction
 Fumika Isono April 25, 2021
 
-Codes and the more detailed description can be found in [jupyter notebook](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_coding_challenge.ipynb).
+Codes and the more detailed description can be found in [jupyter notebook](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_upvotes.ipynb).
 
 ## Objective
 
@@ -44,4 +44,4 @@ Built a model to estimate up votes of the subreddit [worldnews](https://www.redd
 
 8. A study of the importance of the features showed that the most important features are the authors, number of days elapsed, and the length of the title.
 
-Many more details can be found in the [jupyter notebook](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_coding_challenge.ipynb).
+Many more details can be found in the [jupyter notebook](https://github.com/Fumikac/reddit-upvotes-prediction/blob/main/Reddit_upvotes.ipynb).
