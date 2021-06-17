@@ -37,8 +37,8 @@ We built a model to estimate up votes of the subreddit [worldnews](https://www.r
 
     | Percentage of prediction accuracy   | within +/- 50 votes (test set) | within +/- 100 votes (test set)    |
     | :---        |    :----:   |    :----:   |
-    | Model 1: Global Mean      | 87.23 %       | 90.56 %   |
-    | Model 2: Gradient Boosted DT   | 4.27 %        | 21.60 %      |
+    | Model 1: Global Mean  | 4.27 %        | 21.60 %      |
+    | Model 2: Gradient Boosted DT       | 87.23 %       | 90.56 %   |
 
     We see that we successfully increased the percentage of prediction within specific ranges of error.
 
